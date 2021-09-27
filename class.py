@@ -4,7 +4,13 @@ class batsman:
         self.age = age
         self.score = score
 
-kholi = batsman("Virat kholi", 32, 100)        
+    def print_name(self):
+        print("Name: " + self.name) 
+        print("age: " + str(self.age))  
+        print("score: " + str(self.score))
+
+kholi = batsman("Virat kholi", 32, 100)       
 rohit = batsman("Rohit sharma", 34, 60) 
-print(kholi.name)
-print(rohit.name)
+
+kholi.print_name()
+rohit.print_name()
