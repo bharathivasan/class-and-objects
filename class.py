@@ -9,8 +9,8 @@ class batsman:
         print("age: " + str(self.age))  
         print("Runs: " + str(self.runs))
 
-kholi = batsman("Virat kholi", 32, 100)       
-rohit = batsman("Rohit sharma", 34, 60) 
+bharathi = batsman("Bharathi ", 32, 100)       
+vasan = batsman("Vasan ", 34, 60) 
 
-kholi.print_name()
-rohit.print_name()
+bharathi.print_name()
+vasan.print_name()
