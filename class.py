@@ -7,4 +7,4 @@ class batsman:
 kholi = batsman("Virat kholi", 32, 100)        
 rohit = batsman("Rohit sharma", 34, 60) 
 print(kholi.name)
-print(dhoni.name)
+print(rohit.name)
