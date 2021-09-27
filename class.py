@@ -1,13 +1,13 @@
 class batsman:
-    def __init__(self, name, age, score):
+    def __init__(self, name, age, runs):
         self.name = name
         self.age = age
-        self.score = score
+        self.runs = runs
 
     def print_name(self):
         print("Name: " + self.name) 
         print("age: " + str(self.age))  
-        print("score: " + str(self.score))
+        print("Runs: " + str(self.runs))
 
 kholi = batsman("Virat kholi", 32, 100)       
 rohit = batsman("Rohit sharma", 34, 60) 
