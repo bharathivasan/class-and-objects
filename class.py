@@ -5,6 +5,6 @@ class batsman:
         self.score = score
 
 kholi = batsman("Virat kholi", 32, 100)        
-dhoni = batsman("Dhoni", 40, 60) 
+rohit = batsman("Rohit sharma", 34, 60) 
 print(kholi.name)
 print(dhoni.name)
